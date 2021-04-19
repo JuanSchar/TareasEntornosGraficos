@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: Arial;
+        }
+    </style>
+</head>
+    <frameset rows="10%,80%,10%" marginwidht="10%" marginheigth="10%" scrolling="no">
+        <frameset cols="80%,*" frameborder="no" marginwidht="10%" marginheigth="30%" scrolling="yes">
+            <frame src="paginas/headerizquierda.html" name="header-izquierda"></frame>
+            <frame src="paginas/headerderecha.html" name="header-derecha"></frame>
+        </frameset>
+        <frameset cols="20%,*" frameborder="no" marginwidht="10%" marginheigth="30%" scrolling="yes">
+            <frame src="paginas/menu.html" name="body-izquierda"></frame>
+            <frame src="paginas/articulos.html" name="body-derecha"></frame>
+        </frameset>
+        <frameset cols="*" frameborder="no" marginwidht="10%" marginheigth="30%" scrolling="yes">
+            <frame src="paginas/menu.html" name="footer"></frame>
+        </frameset>
+    </frameset>
+</html>
