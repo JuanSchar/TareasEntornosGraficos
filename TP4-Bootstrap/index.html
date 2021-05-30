@@ -43,7 +43,7 @@
     </div>
 
     <hr />
-    <!-- Practica 2, actividad 2 -->  
+    <!-- Practica 2 y 3 -->  
    
     <div class="container">
         <div class="row">
@@ -55,22 +55,65 @@
         <div class="row">
             <div class="col-sm-3" style="background-color:rgb(214, 192, 132)">
                 <h1>Slider</h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Ejecutar boton modal
+                </button>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título de ventana modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        Contenido del modal
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-9">
                 <div class="row" style="background-color:rgb(75, 197, 112)">
                 <div class="col-sm">
                     <h1>fila</h1>
+
+                    <div class="alert alert-success" role="alert"> 
+                        Mensaje de alerta satisfactorio
+                    </div>  
                 </div>
             </div>
                     
             <div class="row">
                 <div class="col" style="background-color:rgb(94, 94, 94)">
                     <h1>col1</h1>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./src/imagenes/imagen4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Texto de muestra de tarjeta.</p>
+                        </div>
+                    </div>
+                      
                 </div>
                 <div class="col" style="background-color:rgb(94, 94, 94)">
                     <h1>col2</h1>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./src/imagenes/imagen5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Texto de muestra de tarjeta.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm" id="Sacar" style="background-color:rgb(94, 94, 94)">
+                <div class="hide col-sm" style="background-color:rgb(94, 94, 94)">
                     <h1>col3</h1>
                 </div>
             </div>
@@ -78,14 +121,27 @@
             <div class="row">
                 <div class="col" style="background-color:rgb(94, 94, 94)">
                     <h1>col1</h1>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./src/imagenes/imagen6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Texto de muestra de tarjeta.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col" style="background-color:rgb(94, 94, 94)">
                     <h1>col2</h1>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./src/imagenes/imagen7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Texto de muestra de tarjeta.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm" id="Sacar" style="background-color:rgb(94, 94, 94)">
+                <div class="hide col-sm" style="background-color:rgb(94, 94, 94)">
                     <h1>col3</h1>
                 </div>
             </div> 
+
 
             <div class="row">
                 <div class="col col-sm-3" style="background-color:rgb(91, 82, 177)">
